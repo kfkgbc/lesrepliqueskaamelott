@@ -1,0 +1,94 @@
+h2 {
+    font-family: calibri;
+    font-style: italic;
+}
+
+ol {
+    text-align: justify;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.cit1 {
+    font-weight: 700;
+}
+
+h1 {
+    text-decoration: underline;
+    text-align: center;
+    color: rgba(0, 0, 0, 1);
+    background-image: url(Assets/logo14207.jpg);
+    border-radius: 20px;
+    opacity: 0.75;
+    background-size: cover;
+    padding: 100px;
+    text-shadow: 6px 6px 10px rgb(151, 151, 151);
+    font-family: 'Noto Serif', serif;
+    font-size: 3em;
+}
+
+
+* {
+    color: #C0C0C0;
+    background-color: rgb(100, 84, 82);
+    padding: 7.5px;
+}
+
+.imagebohort, .imagemerlin, .imageleodagan, .imagekaradoc, .imageburgonde, .imagekadoc, .imageperceval {
+    border-top: 2px solid #C0C0C0 ;
+    border-bottom: 2px solid #C0C0C0;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+    border-radius: 20px;
+    width: 500px;
+    height: 250px;
+    justify-content: flex-end;
+}
+
+a:hover {
+    opacity: 0.5;
+}
+
+.lapage1, .lapage2, .lapage3 {
+    width: 70px;
+    height: 70px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.contenu {
+    display: flex;
+    justify-content: space-between;
+}
+.tableau {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+
+.pages {
+    height: 150px;
+    width: 150px;
+    gap: 20;
+    border-radius: 20px;
+    border: white 5px solid;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 50%;
+}
+
+input {
+    padding: 10px;
+    background-color: white;
+}
+
+.boutonenvoyer {
+    display: flex;
+    width: 75px;
+    height: 50px;
+    background-color: gray;
+}
