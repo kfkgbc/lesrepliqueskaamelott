@@ -1,94 +1,95 @@
+
 h2 {
-    famille de polices : calibri;
-    style de police : italique ;
+    font-family: calibri;
+    font-style: italic;
 }
 
-vieux {
-    text-align : justifier;
-    famille de polices :  'Montserrat' , sans empattement ;
+ol {
+    text-align: justify;
+    font-family: 'Montserrat', sans-serif;
 }
 
-. cit1 {
-    poids de la police :  700 ;
+.cit1 {
+    font-weight: 700;
 }
 
 h1 {
-    décoration de texte : souligner ;
-    text-align : centre;
-    couleur :  rgba ( 0 ,  0 ,  0 ,  1 );
-    image d'arrière-plan :  url (Assets/logo14207.jpg);
-    rayon-bordure :  20 px ;
-    opacité :  0,75 ;
-    taille du fond : couverture ;
-    remplissage :  100 px ;
-    texte-ombre :  6 px  6 px  10 px  RVB ( 151 ,  151 ,  151 );
-    famille de polices :  'Noto Serif' , serif;
-    taille de police :  3 em ;
+    text-decoration: underline;
+    text-align: center;
+    color: rgba(0, 0, 0, 1);
+    background-image: url(Assets/logo14207.jpg);
+    border-radius: 20px;
+    opacity: 0.75;
+    background-size: cover;
+    padding: 100px;
+    text-shadow: 6px 6px 10px rgb(151, 151, 151);
+    font-family: 'Noto Serif', serif;
+    font-size: 3em;
 }
 
 
 * {
-    couleur :  # C0C0C0 ;
-    couleur d'arrière-plan :  rvb ( 100 ,  84 ,  82 );
-    remplissage :  7,5 px ;
+    color: #C0C0C0;
+    background-color: rgb(100, 84, 82);
+    padding: 7.5px;
 }
 
-. imagelancelot , . imagearthur , . imagebohort , . imagemerlin , . imageléodagan , . imagekaradoc , . imageburgonde , . imagekadoc , . imageperceval {
-    bordure supérieure :  2 px solide # C0C0C0 ;
-    bordure inférieure :  2 px solide # C0C0C0 ;
-    bordure gauche :  2 px noir uni ;
-    bordure droite :  2 px noir uni ;
-    rayon-bordure :  20 px ;
-    largeur :  500 px ;
-    hauteur :  250 px ;
-    justifier-contenu : flex-end;
+.imagelancelot, .imagearthur, .imagebohort, .imagemerlin, .imageleodagan, .imagekaradoc, .imageburgonde, .imagekadoc, .imageperceval {
+    border-top: 2px solid #C0C0C0 ;
+    border-bottom: 2px solid #C0C0C0;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+    border-radius: 20px;
+    width: 500px;
+    height: 250px;
+    justify-content: flex-end;
 }
 
-a : survolez {
-    opacité :  0,5 ;
+a:hover {
+    opacity: 0.5;
 }
 
-. lapage1 , . lapage2 , . lapage3 {
-    largeur :  70 px ;
-    hauteur :  70 px ;
-    affichage : flexible;
-    justifier-contenu : flex-start;
+.lapage1, .lapage2, .lapage3 {
+    width: 70px;
+    height: 70px;
+    display: flex;
+    justify-content: flex-start;
 }
 
-. contenu {
-    affichage : flexible;
-    justifier-contenu : espace entre les deux ;
+.contenu {
+    display: flex;
+    justify-content: space-between;
 }
-. tableau {
-    affichage : grille ;
-    grille-modèle-colonnes :  1 fr  1 fr  1 fr ;
-    grille-modèle-lignes :  1 fr  1 fr  1 fr ;
-}
-
-
-. pages {
-    hauteur :  150 px ;
-    largeur :  150 px ;
-    écart :  20 ;
-    rayon-bordure :  20 px ;
-    bordure : blanc 5 px uni ;
+.tableau {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
 }
 
-formulaire {
-    affichage : flexible;
-    flex-direction : colonne;
-    marge : automatique ;
-    largeur :  50 % ;
+
+.pages {
+    height: 150px;
+    width: 150px;
+    gap: 20;
+    border-radius: 20px;
+    border: white 5px solid;
 }
 
-saisir {
-    remplissage :  10 px ;
-    couleur de fond : blanc ;
+form {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 50%;
 }
 
-. boutonenvoyer {
-    affichage : flexible;
-    largeur :  75 px ;
-    hauteur :  50 px ;
-    couleur de fond : gris ;
-  }
+input {
+    padding: 10px;
+    background-color: white;
+}
+
+.boutonenvoyer {
+    display: flex;
+    width: 75px;
+    height: 50px;
+    background-color: gray;
+}
